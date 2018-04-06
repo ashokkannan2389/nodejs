@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>horizantal menu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	.import{
+		width:100%;
+		background: #555;
+		overflow:hidden;
+		text-align: center;
+	}
+	.import a{
+		width:20%;
+		float:left;
+		color:white;
+		font-size: 36px;
+		padding: 12px 0;
+		-ms-transition: all 0.9s ease;
+		-moz-transition: all 0.9s ease;
+		-webkit-transition: all 0.9s ease;
+		transition: all 0.9s ease;
+
+	}
+	.import a:hover{
+		background:#000;
+	}
+	.active{
+		background: green !important;
+	}
+</style>
+</head>
+<body>
+	<div class="import">
+		<ul>
+			<li>
+				<a class="active" href="#"><i class="fa fa-home"></i></a>
+				<a href="#"><i class="fa fa-search"></i></a> 
+				<a href="#"><i class="fa fa-envelope"></i></a> 
+				<a href="#"><i class="fa fa-globe"></i></a>
+				<a href="#"><i class="fa fa-trash"></i></a> 
+
+			</li>
+		</ul>
+	</div>
+
+</body>
+</html>
